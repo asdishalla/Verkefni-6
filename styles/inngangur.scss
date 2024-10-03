@@ -1,0 +1,12 @@
+.inngangur {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  gap: var(--spacing);
+  margin-bottom: var(--vertical-space);
+}
+    
+.inngangur img {
+  order: 1;
+  border-radius: var(--border-radius-image);
+}

@@ -1,0 +1,29 @@
+footer {
+  display: grid;
+  justify-content: center;
+  padding-top: var(--spacing);
+  border-top: 4px solid var(--color-border-with-background);
+  width: 100%;
+  background-color: var(--color-background-secondary);
+  text-align: center;
+}
+    
+footer > section {
+  margin-bottom: var(--spacing);
+}
+    
+footer ul {
+  list-style: none;
+}
+    
+footer h3 {
+  margin-bottom: var(--spacing);
+}
+    
+dt {
+  font-weight: bold;
+}
+    
+dd {
+  margin-bottom: var(--spacing);
+}

@@ -1,0 +1,25 @@
+.cards {
+  display: grid;
+  grid-template-rows: auto;
+  gap: var(--vertical-space);
+  justify-items: center;
+  margin-bottom: var(--vertical-space);
+  width: 100%;
+}
+    
+.cards > .title {
+  width: var(--width-offset);
+  text-align: center;
+}
+
+.cards:last-child {
+  margin-bottom: 0;
+}
+    
+.cards > .content {
+  display: grid;
+  grid-template-rows: auto;
+  gap: var(--vertical-space);
+  justify-items: center;
+  width: 100%;
+}

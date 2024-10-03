@@ -1,0 +1,68 @@
+@media (width >= 500px) {
+  .inngangur {
+    flex-direction: row;
+  }
+    
+  .inngangur p {
+    flex: 3;
+  }
+    
+  .inngangur img {
+    max-width: var(--max-width-image);
+    flex: 1;
+  }
+}
+    
+@media (width >= 700px) {
+  .cards > .content {
+    grid-template-columns: repeat(var(--columns), 1fr);
+  }
+    
+  .card {
+    grid-column: span 6;
+  }
+    
+  footer {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+    
+@media (width >= 800px) {
+  .wrapper .wrapper-content {
+    display: grid;
+    grid-template-columns: repeat(var(--columns), 1fr);
+    gap: var(--gutter);
+  }
+  
+  .wrapper .wrapper-nav {
+    grid-column: span 2;
+  }
+  
+  .wrapper .wrapper-main {
+    grid-column: span 10;
+  }
+    
+  .wrapper nav ul {
+    display: block;
+  }
+    
+  nav ul li {
+    text-align: left;
+    margin-bottom: var(--spacing);
+  }
+    
+  footer {
+    justify-content: space-evenly;
+  }
+}
+    
+/* TODO skilgreinda brotpunkt fyrir .cards .content */
+@media (width >= 99999px) {
+  /* TODO hvaða stílar ættu að vera hér? */
+}
+    
+/* TODO skilgreinda brotpunkt fyrir .card */
+@media (width >= 99999px) {
+  /* TODO hvaða stílar ættu að vera hér? */
+}
