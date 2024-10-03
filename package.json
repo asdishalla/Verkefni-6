@@ -8,7 +8,8 @@
     "serve": "browser-sync start --server --files './dist/*.html, ./dist/css/*.css'",
     "lint": "stylelint styles/*.scss --fix",
     "dev": "concurrently \"npm run sass\" \"npm run serve\"",
-    "watch": "sass --watch styles/main.scss:dist/main.css"
+    "watch": "sass --watch styles/main.scss:dist/main.css",
+    "build": "sass styles/main.scss:dist/main.css"
   },
   "repository": {
     "type": "git",
